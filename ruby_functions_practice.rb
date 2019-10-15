@@ -92,3 +92,7 @@ def number_to_short_month_name(num)
     "Not in range"
   end
 end
+
+def volume_of_cube(num)
+  results = num ** 3
+end 
