@@ -29,3 +29,34 @@ end
 def add_string_as_number(no1,no2)
   results = no1.to_i + no2.to_i
 end
+
+def number_to_full_month_name(num)
+  results=case num
+  when 1
+    "January"
+  when 2
+    "February"
+  when 3
+    "March"
+  when 4
+    "April"
+  when 5
+    "May"
+  when 6
+    "June"
+  when 7
+    "July"
+  when 8
+    "August"
+  when 9
+    "September"
+  when 10
+    "October"
+  when 11
+    "November"
+  when 12
+    "December"
+  else
+    "Not in range"
+  end
+end
