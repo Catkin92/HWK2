@@ -101,5 +101,8 @@ def volume_of_sphere(radius)
   radius_cubed= radius ** 3
   pi= 3.14
   results = (radius_cubed * pi * 1.25).round(2)
+end
 
+def fahrenheit_to_celsius(fahr)
+  results= (fahr - 32) * (5 / 9)
 end
