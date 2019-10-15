@@ -95,4 +95,11 @@ end
 
 def volume_of_cube(num)
   results = num ** 3
-end 
+end
+
+def volume_of_sphere(radius)
+  radius_cubed= radius ** 3
+  pi= 3.14
+  results = (radius_cubed * pi * 1.25).round(2)
+
+end
