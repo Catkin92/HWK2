@@ -12,4 +12,8 @@ end
 
 def multiply(no1,no2)
   results= no1 * no2
-end 
+end
+
+def divide(no1,no2)
+  results = no1 / no2
+end
