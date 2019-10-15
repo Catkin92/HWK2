@@ -9,3 +9,7 @@ end
 def subtract(no1,no2)
   result= no1-no2
 end
+
+def multiply(no1,no2)
+  results= no1 * no2
+end 
