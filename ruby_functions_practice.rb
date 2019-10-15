@@ -2,36 +2,36 @@ def return_10
   return 10
 end
 
-def add(no1,no2)
-  result= no1+no2
+def add(no_1, no_2)
+  result = no_1 + no_2
 end
 
-def subtract(no1,no2)
-  result= no1-no2
+def subtract(no_1, no_2)
+  result = no_1 - no_2
 end
 
-def multiply(no1,no2)
-  results= no1 * no2
+def multiply(no_1, no_2)
+  result = no_1 * no_2
 end
 
-def divide(no1,no2)
-  results = no1 / no2
+def divide(no_1, no_2)
+  result = no_1 / no_2
 end
 
 def length_of_string(string)
   result = string.length
 end
 
-def join_string(string1, string2)
-  result = string1 + string2
+def join_string(string_1, string_2)
+  result = string_1 + string_2
 end
 
-def add_string_as_number(no1,no2)
-  results = no1.to_i + no2.to_i
+def add_string_as_number(no_1, no_2)
+  result = no_1.to_i + no_2.to_i
 end
 
 def number_to_full_month_name(num)
-  results=case num
+  result = case num
   when 1
     "January"
   when 2
@@ -63,7 +63,7 @@ end
 
 
 def number_to_short_month_name(num)
-  results=case num
+  result = case num
   when 1
     "Jan"
   when 2
@@ -94,15 +94,15 @@ def number_to_short_month_name(num)
 end
 
 def volume_of_cube(num)
-  results = num ** 3
+  result = num ** 3
 end
 
 def volume_of_sphere(radius)
-  radius_cubed= radius ** 3
-  pi= 3.14
+  radius_cubed = radius ** 3
+  pi = 3.14
   results = (radius_cubed * pi * 1.25).round(2)
 end
 
 def fahrenheit_to_celsius(fahr)
-  results= (fahr - 32) * (5 / 9)
+  results = (fahr - 32) * (5 / 9)
 end
